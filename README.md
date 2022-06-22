@@ -60,4 +60,18 @@ Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modu
 login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat
 database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
 ![image](https://user-images.githubusercontent.com/101688124/175072413-feae324d-82cc-4e63-91ea-40d4e89d2e12.png)
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori
+/app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+![2022-06-22 (5)](https://user-images.githubusercontent.com/101688124/175076775-3655ae6f-b850-4be4-95f7-09d60ff89804.png)
+![image](https://user-images.githubusercontent.com/101688124/175076906-1d4a640e-34b9-4de4-a543-8f9de1e4812c.png)
+Uji Coba Login
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+![2022-06-22 (6)](https://user-images.githubusercontent.com/101688124/175077006-4b0373e6-7187-49ab-a60b-1d1a82116ebb.png)
+
+Menambahkan Auth Filter
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php
+pada direktori app/Filters.
+![2022-06-22 (7)](https://user-images.githubusercontent.com/101688124/175077100-043b63a0-b9e6-4ec6-a600-467ab2437aaf.png)
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+![2022-06-22 (8)](https://user-images.githubusercontent.com/101688124/175077205-5f07446b-0139-4dbd-a569-d99d88be658e.png)
 
