@@ -37,8 +37,27 @@ Membuat View Selanjutnya adalam membuat view untuk tampilan web agar lebih menar
 - RINO ELJON ATIBAMAN
 - 312010006
 - PEMOGRAMAN WEB
+# Membuat Tabel User
+![image](https://user-images.githubusercontent.com/101688124/175068361-026049c1-3d29-4bc2-ba3e-ddc47704312f.png)
 
 ![image](https://user-images.githubusercontent.com/101688124/174828171-b05c940a-6094-42cd-a8a7-c7978e060c42.png)
-Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita menggunakan konfigurasi pada file .env.
-![image](https://user-images.githubusercontent.com/101688124/174828564-40fbef19-796a-45e0-962c-e19fc7d0fa5b.png)
+Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada
+direktori app/Models dengan nama UserModel.php
+![2022-06-22 (1)](https://user-images.githubusercontent.com/101688124/175069030-dc67823d-97f1-43d5-a2ef-a9d744d19b37.png)
+Membuat Controller User
+Buat Controller baru dengan nama User.php pada direktori app/Controllers.
+Kemudian tambahkan method index() untuk menampilkan daftar user, dan method
+login() untuk proses login.
+![2022-06-22 (2)](https://user-images.githubusercontent.com/101688124/175069180-70e9a139-42bb-405f-bd71-ceb8ce0c0fb5.png)
+![2022-06-22 (3)](https://user-images.githubusercontent.com/101688124/175069266-81511e77-6107-427c-8a42-fe9cf60e3d1e.png)
+Membuat View Login
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file
+baru dengan nama login.php.
+![2022-06-22 (4)](https://user-images.githubusercontent.com/101688124/175069356-95812387-ce6b-4bb1-a0c1-8a4b5a01b714.png)
+Membuat Database Seeder
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul
+login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat
+database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+![image](https://user-images.githubusercontent.com/101688124/175072413-feae324d-82cc-4e63-91ea-40d4e89d2e12.png)
 
