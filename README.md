@@ -75,3 +75,9 @@ pada direktori app/Filters.
 Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
 ![2022-06-22 (8)](https://user-images.githubusercontent.com/101688124/175077205-5f07446b-0139-4dbd-a569-d99d88be658e.png)
 
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya
+![image](https://user-images.githubusercontent.com/101688124/175751889-b364a4be-458f-4dfc-8003-ac778b73e238.png)
+Percobaan Akses Menu Admin Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
+![image](https://user-images.githubusercontent.com/101688124/175751901-db189d60-ca2c-4339-ac93-bedcfc793a02.png)
+Fungsi Logout Tambahkan method logout pada Controller User seperti berikut:
+![2022-06-25](https://user-images.githubusercontent.com/101688124/175751980-28630114-b28d-49fd-8426-1ef8c9307a5c.png)
